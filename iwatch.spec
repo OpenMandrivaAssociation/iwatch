@@ -6,7 +6,7 @@ Summary:        iWatch is a realtime filesystem monitoring program
 Version:        %{version}
 Release:        %mkrel 1
 License:        GPLv2
-Group:          Productivity/Security
+Group:          Monitoring
 Requires:       perl-Linux-Inotify2 perl-Event perl-Mail-Sendmail perl-XML-LibXML perl-XML-SimpleObject-LibXML
 Url:            http://iwatch.sourceforge.net
 Source0:	http://downloads.sourceforge.net/project/iwatch/%{name}/%{version}/%{name}-%{version}.tgz
