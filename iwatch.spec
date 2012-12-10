@@ -63,11 +63,11 @@ rm -rf $RPM_BUILD_ROOT
 %{_sysconfdir}/iwatch.dtd
 %{_bindir}/iwatch
 
+
+
 %changelog
-* Thu Mar 22 2007 tpatzig@suse.de
-- update to version 0.2.1
-  * option -X added (exception with regular expression)
-  * new string formats in command option
-  * send email for all defined events
-* Tue Mar  6 2007 tpatzig@suse.de
-- initial package build
+* Tue Aug 02 2011 Leonardo Coelho <leonardoc@mandriva.com> 0.2.2-1mdv2012.0
++ Revision: 692909
+- import package into mdv and spec from suse
+- Created package structure for iwatch.
+
