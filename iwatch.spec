@@ -2,7 +2,7 @@
 %define version 0.2.2
 
 Name:           %{name}
-Summary:        iWatch is a realtime filesystem monitoring program
+Summary:        Realtime filesystem monitoring program
 Version:        %{version}
 Release:        %mkrel 1
 License:        GPLv2
