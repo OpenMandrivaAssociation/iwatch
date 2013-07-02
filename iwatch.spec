@@ -4,13 +4,12 @@
 Name:           %{name}
 Summary:        Realtime filesystem monitoring program
 Version:        %{version}
-Release:        %mkrel 1
+Release:        2
 License:        GPLv2
 Group:          Monitoring
 Requires:       perl-Linux-Inotify2 perl-Event perl-Mail-Sendmail perl-XML-LibXML perl-XML-SimpleObject-LibXML
 Url:            http://iwatch.sourceforge.net
 Source0:	http://downloads.sourceforge.net/project/iwatch/%{name}/%{version}/%{name}-%{version}.tgz
-BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildArch:      noarch
 
 %description
@@ -54,10 +53,8 @@ install -d %buildroot/usr/bin
 install -p iwatch %buildroot/usr/bin/iwatch
 
 %clean
-rm -rf $RPM_BUILD_ROOT
 
 %files
-%defattr(-,root,root)
 %doc AUTHORS ChangeLog COPYING README iwatch.xml.example
 %{_sysconfdir}/iwatch.xml
 %{_sysconfdir}/iwatch.dtd
