@@ -4,7 +4,7 @@
 Name:           %{name}
 Summary:        Realtime filesystem monitoring program
 Version:        %{version}
-Release:        2
+Release:        3
 License:        GPLv2
 Group:          Monitoring
 Requires:       perl-Linux-Inotify2 perl-Event perl-Mail-Sendmail perl-XML-LibXML perl-XML-SimpleObject-LibXML
