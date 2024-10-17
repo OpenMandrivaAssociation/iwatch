@@ -8,7 +8,7 @@ Release:        3
 License:        GPLv2
 Group:          Monitoring
 Requires:       perl-Linux-Inotify2 perl-Event perl-Mail-Sendmail perl-XML-LibXML perl-XML-SimpleObject-LibXML
-Url:            http://iwatch.sourceforge.net
+Url:            https://iwatch.sourceforge.net
 Source0:	http://downloads.sourceforge.net/project/iwatch/%{name}/%{version}/%{name}-%{version}.tgz
 BuildArch:      noarch
 
